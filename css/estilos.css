@@ -146,6 +146,10 @@ footer .fa-whatsapp{
     height: auto;
     max-width: 100%;
 }
+#bio .responsive{
+    height: 215px;
+    max-width: 100%;
+}
 #stack h2{
     color: white;
     font-size: 24px;
