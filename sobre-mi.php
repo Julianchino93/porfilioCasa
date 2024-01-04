@@ -1,47 +1,23 @@
+<?php 
+ $pg = "sobre-mi";
+
+
+?>
 <!DOCTYPE html>
 <html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
+    <title>sobre mi</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="proyectos" class="d-flex flex-column h-100">
+<body id="sobre-mi" class="d-flex flex-column h-100">
   <header class="container">
-      <nav class="navbar navbar-expand-md">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                <li class="nav-item">
-                  <a class="nav-link px-4" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active px-4" href="sobre-mi.html">Sobre mi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-4" href="proyectos.html">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link px-4" href="contactos.html">Contacto</a>
-                </li>
-              </ul>
-              <ul class="navbar-nav">
-                <li class="float-sm-end">
-                  <a class="btn btn-rojo" href="contactos.html">
-                    Descargar mi CV <i class="fa-solid fa-download"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+       <?php include_once("menu.php");?>
   </header>
   <main>
     <section id="bio" class="container">
@@ -49,7 +25,7 @@
       <div class="col-12 col-sm-7">
         <h1 class="py-5">Sobre mí</h1>
         <p>Apasionado por la tecnología y gestión de proyectos. Soy docente de cursos de programación Full Stack y de Base de datos.</p>
-        <a href="contactos.html" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
+        <a href="contactos.php" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
       </div>
       <div class="col-10 col-sm-3 py-5 pe-5 d-none d-sm-block">
         <img src="images/juli.jpg" class="img-fluid" alt="julian">
